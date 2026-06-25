@@ -1,31 +1,32 @@
+AnonymousURL +https://heinonline.com/HOL/AuthorListMyHein*
+AnonymousURL +https://heinonline.com/HOL/MyHeinTestMyHein*
+AnonymousURL +https://heinonline.com/HeinDocs/*
+AnonymousURL +https://heinonline.com/static/*
 AnonymousURL +https://heinonline.org/HOL/AuthorListMyHein*
-AnonymousURL +https://my.heinonline.org/myhein/*
-AnonymousURL +https://my.heinonline.org/js/*
-AnonymousURL +https://heinonline.org/static/*
-AnonymousURL +https://heinonline.org/HeinDocs/*
 AnonymousURL +https://heinonline.org/HOL/MyHeinTestMyHein*
-Title HeinOnline (updated 20240325)
+AnonymousURL +https://heinonline.org/HeinDocs/*
+AnonymousURL +https://heinonline.org/static/*
+Title HeinOnline (updated 20260623)
 MimeFilter text/event-stream .* javascript
 MimeFilter ^$ https?://heinonline.org/HOL/.* javascript
-URL http://www.heinonline.org/HOL/Welcome
-HJ heinonline.org
-HJ home.heinonline.org
-HJ www.heinonline.org
-HJ my.heinonline.org
-HJ tim.heinonline.org
+MimeFilter text/event-stream .* javascript
+MimeFilter ^$ https?://heinonline.com/HOL/.* javascript
+URL https://access.heinonline.com/HOL/Welcome
+HJ https://access.heinonline.com
+HJ https://heinonline.com
 HJ https://heinonline.org
 HJ https://home.heinonline.org
+HJ https://www.heinonline.com
 HJ https://www.heinonline.org
-HJ https://tim.heinonline.org
-HJ https://my.heinonline.org
-HJ https://delaware.heinonline.org
-HJ http://delaware.heinonline.org
-HJ https://franklin.heinonline.org
-HJ http://franklin.heinonline.org
-HJ https://brandon.heinonline.org
-HJ http://brandon.heinonline.org
+HJ access.heinonline.com
+HJ heinonline.com
+HJ heinonline.org
+HJ home.heinonline.org
+HJ www.heinonline.com
+HJ www.heinonline.org
+DJ heinonline.com
 DJ heinonline.org
 Option AllowSendGZip
 Find document.domain
-Replace "heinonline.org"
+Replace "heinonline.com"
 AnonymousURL -*
