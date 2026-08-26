@@ -3,7 +3,8 @@ Option CookiePassThrough
 AnonymousURL +.ttf
 AnonymousURL +.woff
 AnonymousURL -Options +https://exports.www.webofscience.com/*
-Title Web of Science (formerly Web of Knowledge) (updated 20260708)
+AnonymousURL -Options +https://exports-eu.www.webofscience.com/*
+Title Web of Science (formerly Web of Knowledge) (updated 20260821)
 HTTPHeader -request -process X-1P-WOS-SID
 HTTPHeader -request -process X-1P-WOS-No-Action
 URL http://www.webofscience.com
@@ -34,7 +35,7 @@ Replace rurl=http://^A
 Find return_url=http://
 Replace return_url=http://^A
 Find "CIT.GATEWAY_URL">gateway.webofknowledge.com
-Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^
+Replace "CIT.GATEWAY_URL">^pgateway.webofknowledge.com^  
 Find value='gateway.webofknowledge.com/gateway/Gateway.cgi'
 Replace value='^pgateway.webofknowledge.com^/gateway/Gateway.cgi'
 Find noprox href="https://
